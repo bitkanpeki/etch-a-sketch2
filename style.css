@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(16 * 40px);
+}
+
+.cell {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
